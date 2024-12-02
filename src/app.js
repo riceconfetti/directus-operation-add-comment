@@ -1,5 +1,5 @@
 export default {
-	id: 'your-extension-id',
+	id:'directus-operation-add-comment',
 	name: 'Add Comment',
 	icon: 'chat',
 	description: 'Add a comment to a record',

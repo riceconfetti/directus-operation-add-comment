@@ -1,5 +1,5 @@
 export default {
-	id: 'your-extension-id',
+	id: 'directus-operation-add-comment',
 	handler: async ({ collection, comment_key, comment }, { services, database, accountability, getSchema }) => {
 		const { ActivityService } = services;
 		const schema = await getSchema({ database });
